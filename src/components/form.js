@@ -15,6 +15,7 @@ export default function FormComponent() {
     e.preventDefault();
     saveFormData(localForm);
     console.log("data saved: ", localForm);
+    window.location.href = "/submission";
   };
 
   return (
