@@ -13,7 +13,7 @@ export default function Submission() {
   return (
     <main className={styles.submission}>
       <div className={styles.info}>
-        <h2>here`&apos;`s your data!</h2>
+        <h2>here&apos;s your data!</h2>
         <div className={styles.dataItem}>
           <h3>name:</h3>
           <p>{formData.name}</p>
